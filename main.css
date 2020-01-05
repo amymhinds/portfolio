@@ -1,7 +1,12 @@
 body {
     font-family: sans-serif;
     background-color: #E1F8DE;
+    text-align: center;
+
     
+}
+p , h4, h5{
+    text-align: left;
 }
  
 img {
