@@ -5,49 +5,125 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster+Two&display=swap" rel="stylesheet">
+    <script defer src="main.js"></script>
     <title>Amy Hinds</title>
 </head>
 <body>
-    <h1>Amy Hinds</h1>
-    <h2>Software Engineer</h2>
-    <h3>About</h3>
-    <p>I approach programming through the lens of a mathematician. Every project is a series of equations that can 
-    be applied to solve the problem both efficiently and precisely.
-    I do not shy away from big challenges and have the determination to find solutions, no matter how daunting the task.</p>
-    <h3>Software Engineering Experience</h3>
-    <h4>General Assembley Software Engineering Immersive Bootcamp</h4>
-    <h5>Los Angeles, CA (Oct 2019 - Jan 2020)</h5>
-    <p>Full-stack web development student at an intensive, twelve-week program focused on common best practices in 
-    product development fundamentals, object-oriented programming, MVC frameworks, data modeling, test-driven development,
-    and team collaboration strategies</p>
-    <h3>Projects</h3>
-    <h4>Battleship</h4>
-    <p>Javascript, HTML, CSS. Player vs computer; incorporated computer AI. </p>
-    <div class = "image"><img src = "https://i.imgur.com/r0M2erh.jpg"></div>
-    <a href="https://github.com/amymhinds/Project-1---Battleship">Github Link</a>
-    <h4>Mongoose Flight App</h4>
-    <p>Full stack application using express to generate EJS views using Mongoose schemas</p>
-    <a href="https://github.com/amymhinds/Mongoose-Flights">Github Link</a>
-    <h4>Plate Date</h4>
-    <p>Created Yelp-like full stack application using Express and Mongoose</p>
-    <div class = "image"><img src = "https://i.imgur.com/uUbkciW.jpg"></div>
-    <a href="https://github.com/amymhinds/Plate-Date">Github Link</a>
-    <h3>Related Skills</h3>
-    <h4>Programming:</h4>
-    <p>Python, Javascript, HTML, CSS,  Git, Big-O Notation, Excel, Access, R, SQL</p>
-    <h4>Frameworks: </h4>
-    <p>Express, EJS, Node JS, Mongo DB, Mongoose (MERN), Django</p>
-    <h3>Data Analytics Experience</h3>
-    <h4>Actuarial Analyst/Senior Catastrophe Modeler at Farmers Insurance</h4>
-    <h5>Los Angeles, CA (Mar 2016 - Jan 2019)</h5>
-    <p>Pull data and create exhibits from large data sets to model catastrophes and extract losses as well as apply reinsurance and internal adjustments using SQL and SAS.
-    Extensive work with large data sets and use of SQL, SAS, and Excel every day. </p>
-    <h5>Favorite Project - helped launch Florida's new line of insurance</h5>
-    <p>When our company decided to expand and make hurricane coverage available for home insurance 
-    policies in Florida, I put together a portfolio of mock policies and predicted what losses
-    would be like in that area. I worked with the Pricing Actuarial team to come up with how to price 
-    those new policies. </p>
-
     
+        <div class="wrapperRight">
+            <div>.</div>
+        <div class="content">
+        <div class="brand">
+            <h1 class="name">Amy Hinds </h1>
+            <h2>Software Engineer Extraordinaire</h2>
+            <p>"I approach programming through the lens of a mathematician. Every project is a series of equations that can 
+            be applied to solve the problem both efficiently and precisely.
+            I do not shy away from big challenges and have the determination to find solutions, no matter how daunting the task."</p>
+            </p>
+        </div>
+        <div class="links">
+            <a class="item" href="#about">About</a>
+            <a class="item" href="#skills">Skills</a>
+            <a class="item" href="#projects">Projects</a>
+            <a class="item" href="">Resume</a>
+            <a class="item" href="#contact">Contact</a>
+        </div>
+    </div>
+
+    </div>
+    <section id="about">
+        <h1>About Me</h1>
+        <p class="aboutMe"> I studied math in college, took a break after, and "through-hiked" the 
+        Pacific Crest Trail (a backpacking trail that goes from Mexico to Canada... 2,650 miles!).
+        After that, I went on to be an actuary for three years in LA, working in the Catastrophe Modeling department. 
+        While I was exploring and discovering new foods in the mecca of cuisine, I was also able to explore and 
+        discover what I actually liked to do. Part of my job was to take big data sets and use
+        SQL/SAS to merge, manipulate and apply modifications to that data. I found that I lost track of time
+        challenging myself to come up with the most efficienct solutions to perform 
+        my work. After realizing I was probably in the wrong field, I signed up for General Assembly's 
+        Software Engineering Immersive Program, which gave me the tools to now pursue a meangingful career. 
+        I hope to use my analytical mind in the work I create, and cultivate code that reflects my way of thinking.
+        </p>
+    </section>
+    <section id="skills">
+        <h1>Skills</h1>
+        <div class="skills">
+        <ul><h3 class="list">Languages</h3>
+            <li>JavaScript</li>
+            <li>CSS</li>
+            <li>HTML</li>
+            <li>Python</li>
+            <li>SQL</li>
+            <li>R</li>
+          </ul>
+          <ul><h3 class="list">Libraries/Frameworks </h3>
+            <li>Express</li>
+            <li>Node JS</li>
+            <li>Mongoose</li>
+            <li>MongoDB</li>
+            <li>Django</li>
+            <li>React</li>
+            <li>AJAX</li>
+          </ul>
+          <ul><h3 class="list">Other</h3>
+            <li>Git</li>
+            <li>Excel</li>
+          </ul>
+        </div>
+    </section>
+    <section id="projects"><h1>Projects</h1></section>
+        
+            <h2 class = "projectTitle" id="battleshipTitle" cursor= pointer;>Battleship ↡</h2>
+            <div class="battleship" id="battleship">
+            <a href="https://amymhinds.github.io/Project-1---Battleship/"><img  class="bpic" src = "https://i.imgur.com/r0M2erh.jpg"></a>
+            <p class = "bdescr">This was the very first project I completed during my time at GA. The goal of the project was to take a 
+                game, and using JavaScript, HTML, and CSS, turn it into a computer app. This project incorporates event-driven 
+                programming, through use of DOM elements. I chose to do the game Battleship. 
+                I knew going into this project that there would be challenges of incorporating computer AI if I 
+                wanted the game to actually be fun. I enjoyed this challenge, along with figuring out how to get the user to
+                place their ships, requiring each cell choice to be adjacent and in the same vertical/horizontal choice direction.
+                If I had more time to work on this project, I would like to refactor a lot of my functions because they are quite large, 
+                and implement more smaller functions. 
+            </p>
+            </div>
+        
+            <h2 class ="projectTitle" id="platedateTitle">Plate Date ↡</h2>
+            <div class="platedate" id="platedate">
+            <a href="https://plate--date.herokuapp.com/"><img  class = "ppic" src = "https://i.imgur.com/uUbkciW.jpg"></a>
+            <p class = "pdescr">
+            This project is a Node/Express/MongoDB app similar to Yelp. It allows users to sign in using Google OAuth authentication, and 
+            search restaurants in their city using the Zomato third party API. Once a restauranted is selected and added, they can 
+            leave a review for their peers to view. Users can also check out other people's restaurants and reviews. This application implements
+            full CRUD functionality.  My favorite part of working on this app was incorporating the third party API, Zomato. I love data, and I think 
+            it was really interesting seeing how others design their database and why they chose to do it the way they did.A future goal I would like to 
+            implement in this application is to turn it into a dating app. I think there is something about food that brings people together, and people
+            who eat together stay together!
+            </p>
+            </div>
+        
+            <h2 class="projectTitle" id="perfecteveningTitle">A Perfect Evening ↡</h2>
+            <div class="perfectevening" id="perfectevening">
+            <a href="https://aperfectevening.herokuapp.com/"><img  class = "epic" src = "https://i.imgur.com/eB7AoOF.png"></a>
+            <p class="edescr">This project was our final project in our GA software engineering immersive course, and the goal was to create a full 
+                stack app using the MERN stack: : MongoDB/Mongoose, Express, React, NodeJS. Token based authentication, and authorization
+                is also used. The app I chose to create is a cheese and wine tracker. It comes with a cheese and wine pairing guide for reference, 
+                to help users get some idea of what they should be eating with the type of wine they choose. 
+                The user can search wines from Global Wines database, and select a wine to add to their 'wine diary'.
+                In their diary, they can add cheeses that they paired with the wine, and add additional notes so they 
+                can remember for next time. One challenge I had while making this app was finding a wine API that had the 
+                type of wine (merlot, cabernet..). However, I was unable to find one for free. I wanted to be able to offer a 
+                cheese recommendation based on the type of wine, so a future goal is to have the user select what type of wine it is, and work 
+                with that. My favorite part of this app along with others I have worked with is working with the third party
+                API. I really enjoy seeing how others choose to store their data adn design their models.</p>
+            </div>
+        <section id="contact"><h1>Contact Info</h1>
+            <div class= "logos">
+                    <a href="https://github.com/amymhinds"><img class="git" src ="https://image.flaticon.com/icons/svg/25/25231.svg" alt=""></a>
+                    <p>ahinds1892@gmail.com</p><p>San Diego, CA</p>
+                    <a href="https://www.linkedin.com/in/amy-hinds-ba25aa10b/">
+                      <img class="linked" src="https://icons-for-free.com/iconfiles/png/512/linked+linkedin+logo+social+icon-1320191784782940875.png"></a>
+                    </div></section>
 </body>
 </html>
